@@ -40,5 +40,3 @@ export const matchMedia = <T extends Record<string, string> | string>(
 	}
 	return matchMediaList as MatchMediaReturn<typeof query>;
 };
-
-export default matchMedia;
